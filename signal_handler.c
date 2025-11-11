@@ -4,11 +4,11 @@
  */
 
 /**
- * Modified by:
+ * Modified by: Hunter Van Mersbergen
  * 
  * Brief summary of modifications:
+ * Changed handle_signal() to not exit the program after handling SIGINT.
  */
-
 
 #include <signal.h>
 #include <unistd.h>
@@ -20,7 +20,7 @@
  */
 void handle_signal() {
     printf("Received a signal\n");
-    exit(1);
+    printf("Not exiting\n");
 }
 
 int main() {
