@@ -1,8 +1,9 @@
 /**
- * File: 
- * Modified by:
+ * File: recv_signal.c
+ * Modified by: Hunter Van Mersbergen
  * 
- * Brief summary of program:
+ * Brief summary of program: 
+ * Recieves the SIGUSR1 signal and prints the number sent with it.
  */
 #include <signal.h>
 #include <stdio.h>
